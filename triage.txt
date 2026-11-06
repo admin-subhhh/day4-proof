@@ -1,0 +1,5 @@
+VERDICT: MALICIOUS - Confirmed Phish
+EVIDENCE: Return-Path bounce@evil-phish.ru != From support@microsoft.com (spoof); Reply-To micr0soft-security.com lookalike (0 for o); Received origin 198.51.100.99 bottom->top; Auth SPF=fail DKIM=fail DMARC=fail p=reject (not forwarding)
+IOCs: IP 198.51.100.99, domain micr0soft-security[.]com, URL hxxps://micr0soft-security[.]com/login, hash SHA256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855, file Invoice.pdf.exe
+ACTIONS: 1-Quarantine/delete email 2-Block IP/domain/hash at gateway/proxy/firewall 3-If user clicked: force reset + isolate host + hunt logs 4-User training M1017 5-Restrict web content M1021
+MITRE: T1566 Phishing Initial Access - T1566.002 Spearphishing Link + T1566.001 Attachment; Detections DET0107 email link->browser

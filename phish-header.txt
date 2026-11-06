@@ -1,0 +1,11 @@
+From: "Microsoft Support" <support@microsoft.com>
+Return-Path: <bounce@evil-phish.ru>
+Reply-To: <helpdesk@micr0soft-security.com>
+Received: from mail.evil-phish.ru (198.51.100.99) by mx.google.com with ESMTPS id x123
+Received: from [192.168.1.10] by mail.evil-phish.ru (Postfix) with ESMTP id ABC
+Authentication-Results: mx.google.com; spf=fail (google.com: domain of bounce@evil-phish.ru does not designate 198.51.100.99 as permitted sender) smtp.mailfrom=bounce@evil-phish.ru; dkim=fail (body hash mismatch); dmarc=fail (p=reject) header.from=microsoft.com
+Subject: Urgent: Your account will be locked in 24h
+Date: Thu, 6 Nov 2026 13:50:00 +0530
+X-Originating-IP: [198.51.100.99]
+URL: hxxps://micr0soft-security[.]com/login?user=victim@company.com
+Attachment: Invoice.pdf.exe (SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855)
